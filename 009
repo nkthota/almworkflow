@@ -1,0 +1,59 @@
+Sub Defects_EnterModule
+
+End Sub
+
+Sub Defects_ExitModule
+
+End Sub
+
+Sub Defects_Bug_New
+
+End Sub
+
+Sub Defects_Bug_MoveFrom 'Currently depracated
+
+End Sub
+
+Sub Defects_Bug_MoveTo
+
+End Sub
+
+Sub Defects_Bug_FieldChange (FieldName)
+
+End Sub
+
+Function Defects_Bug_CanPost
+  Defects_Bug_CanPost = True
+End Function
+
+Function Defects_Bug_CanDelete
+  Defects_Bug_CanDelete = True
+End Function
+
+Function Defects_Bug_FieldCanChange (NewValue, FieldName)
+  Defects_Bug_FieldCanChange = True
+End Function
+
+Sub Set_ProjectList
+
+End Sub
+
+Sub Set_SeverityRequired
+
+End Sub
+
+Sub LayoutFields
+
+End Sub
+
+Sub SetReadOnly
+
+End Sub
+
+Sub SetBugActions
+
+End Sub
+
+Function Defects_ActionCanExecute (Name)
+  Defects_ActionCanExecute = True
+End Function
